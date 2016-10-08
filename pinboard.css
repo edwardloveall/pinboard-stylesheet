@@ -1,0 +1,104 @@
+div#banner {
+  padding: 20px 0 29px;
+}
+
+div#logo > span {
+  display: none;
+}
+
+div#top_menu a {
+  color: #A1A1A1;
+}
+
+div#top_menu a:hover {
+  color: #2C3839;
+}
+
+div#bookmarks {
+  margin-top: 6em;
+}
+
+div#bookmarks > div {
+  width: 600px;
+}
+
+div#bookmarks > div:last-of-type {
+  margin-top: 6em;
+}
+
+div.bookmark {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 1em 0;
+  width: 100%;
+}
+
+div.bookmark.private {
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAAZElEQVQ4jZ3SMQ5AIQgD0Pon7n9Z2PyLidEAFro2L106VBVxRCRpv7Y0sxA/ZbjMSB+T0sG8vHFJHrgqN27IhXsSwJhz9iTyh+VSREL8lOEyI31MSgfz8sYleeCq3LghF+5JAD80Fj8JSx6uPgAAAABJRU5ErkJggg==') repeat fixed;
+  border: none;
+  padding: 1em 0;
+}
+
+div.star {
+  color: #E7E7E7;
+  flex: 0 0 36px;
+  float: none;
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+div.selected_star {
+  color: #1CB5BC;
+}
+
+div.display {
+  float: none;
+}
+
+a.bookmark_title {
+  color: #2C3839;
+  font-size: 18px;
+}
+
+a.tag,
+a.when,
+a.url_link,
+div.edit_links {
+  font-size: 13px !important;
+}
+
+a.tag {
+  color: #1CB5BC !important;
+}
+
+a.when {
+  color: #A1A1A1;
+}
+
+a.url_link {
+  background-color: transparent !important;
+  color: #F37063;
+}
+
+a.mark_read {
+  color: #A1A1A1;
+}
+
+#per_page_picker a.per_page_selected {
+  background: none;
+  color: #1CB5BC;
+}
+
+div.edit_links {
+  color: #A1A1A1;
+}
+
+div.edit_links a:hover {
+  color: #2C3839;
+}
+
+div.description {
+  margin-top: 1em;
+}
